@@ -76,4 +76,4 @@ def hangman_game():
 #execute game
 print(hangman_game())
 
-#things i gotta fix: double letters
+#things i gotta fix: double letters in the middle of the word, first and last letter duplicates
