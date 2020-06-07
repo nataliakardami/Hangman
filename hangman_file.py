@@ -51,7 +51,7 @@ def hangman_game():
         condition = "_" in hidden_word
         while counter < 10:
              if "_" not in hidden_word: #stops the game if the word is found
-               print('You found the word in '+ str(counter+correct_counter)+ " tries.")
+               print('You found the word with '+ str(counter+correct_counter)+ " tries remaining.")
                break
              letter = input("Try guessing a letter:")
              print('You guessed ' + letter)
@@ -75,3 +75,5 @@ def hangman_game():
 
 #execute game
 print(hangman_game())
+
+#things i gotta fix: double letters
