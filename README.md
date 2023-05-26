@@ -1,2 +1,2 @@
-# Hangman
-hangman game
+# Hangman Game
+A simple python console hangman game
